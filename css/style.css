@@ -1,0 +1,30 @@
+img {
+    display: none;
+}
+.showing{
+    display: none;
+}
+img{
+    border-radius: 8px;
+}
+.clickable{
+    cursor: pointer;
+    color: #0088cc;
+}
+.clickable:hover{
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 15px;
+    text-decoration: underline;
+    color: aqua;
+}
+#light, #dark{
+    border-radius: 15px;
+    margin-top: 10px;
+    color: whitesmoke;
+    background-color: black;
+    overflow: hidden;
+}
+#story{
+    display: none;
+}
